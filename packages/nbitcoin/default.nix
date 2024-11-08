@@ -28,7 +28,7 @@ buildDotnetModule {
   ];
 
   preInstall = ''
-    # the dierctory name differs based on architecture. I'm not sure if multiple
+    # the directory name differs based on architecture. I'm not sure if multiple
     # outputs can be produced
     cp /build/source/NBitcoin/bin/Release/netstandard2.1/linux-*/* /build/source/NBitcoin/bin/Release/netstandard2.1
   '';
